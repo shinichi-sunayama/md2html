@@ -25,3 +25,4 @@ vendor/
 # env / docker
 *.env
 db-data/
+/input.md
