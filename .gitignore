@@ -1,0 +1,24 @@
+# ビルド成果物
+main
+*.exe
+*.out
+*.log
+
+# 一時ファイル
+*.tmp
+*.temp
+*.bak
+
+# OSやIDE関連
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Go関連
+bin/
+vendor/
+
+# Docker関連
+*.env
+db-data/
