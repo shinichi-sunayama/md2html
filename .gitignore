@@ -1,24 +1,27 @@
-# ビルド成果物
-main
+# build outputs / binaries
+md2html
 *.exe
 *.out
 *.log
 
-# 一時ファイル
+# generated HTML (サンプル出力は追跡しない)
+*.html
+
+# temp / misc
 *.tmp
 *.temp
 *.bak
 
-# OSやIDE関連
+# OS / IDE
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# Go関連
+# Go
 bin/
 vendor/
 
-# Docker関連
+# env / docker
 *.env
 db-data/
