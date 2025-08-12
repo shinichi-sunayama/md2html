@@ -1,13 +1,13 @@
-# build outputs / binaries
-md2html
-*.exe
-*.out
-*.log
+# build / binaries
+/md2html
+/md2html.exe
+/*.out
+/*.log
 
-# generated HTML (サンプル出力は追跡しない)
-*.html
+# generated HTML in repo root
+/*.html
 
-# temp / misc
+# temp
 *.tmp
 *.temp
 *.bak
