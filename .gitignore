@@ -1,13 +1,9 @@
-# build / binaries
 /md2html
 /md2html.exe
-/*.out
-/*.log
-
-# generated HTML in repo root
 /*.html
+/input.md
 
-# temp
+# temp / misc
 *.tmp
 *.temp
 *.bak
@@ -21,8 +17,3 @@ Thumbs.db
 # Go
 bin/
 vendor/
-
-# env / docker
-*.env
-db-data/
-/input.md
