@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/shinichi.sunayama/md2html/internal/convert"
+	"github.com/shinichi-sunayama/md2html/internal/convert"
 )
 
 // Markdown -> HTML変換（CLIと共通）

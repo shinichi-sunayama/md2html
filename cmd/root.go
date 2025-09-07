@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/shinichi.sunayama/md2html/internal/convert"
+	"github.com/shinichi-sunayama/md2html/internal/convert"
 	"github.com/spf13/cobra"
 )
 
